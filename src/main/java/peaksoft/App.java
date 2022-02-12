@@ -4,6 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import peaksoft.config.AppConfig;
 import peaksoft.model.AnimalsCage;
+import peaksoft.model.Timer;
 
 public class App {
 

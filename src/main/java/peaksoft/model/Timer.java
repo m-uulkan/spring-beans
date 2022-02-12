@@ -1,5 +1,10 @@
 package peaksoft.model;
 
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Timer {
 
     private Long nanoTime = System.nanoTime();
@@ -7,4 +12,5 @@ public class Timer {
     public Long getTime() {
         return nanoTime;
     }
+
 }
